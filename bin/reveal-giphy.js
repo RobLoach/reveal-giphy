@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // Dependencies
 var giphy = require('giphy-api')()
 var yaml = require('yamljs')
