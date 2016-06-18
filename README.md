@@ -34,5 +34,5 @@ Rapidly create [Reveal.js](http://lab.hakim.se/reveal-js/#/) presentations with 
 4. Start the presentation:
 
     ```
-    npm test
+    npm start
     ```
