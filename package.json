@@ -7,7 +7,8 @@
     "reveal-giphy": "bin/reveal-giphy.js"
   },
   "scripts": {
-    "test": "node bin/reveal-giphy"
+    "test": "bin/reveal-giphy.js",
+    "start": "bin/reveal-giphy.js"
   },
   "author": "Rob Loach (http://robloach.net)",
   "license": "MIT",

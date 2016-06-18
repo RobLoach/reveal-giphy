@@ -4,7 +4,14 @@ Rapidly create [Reveal.js](http://lab.hakim.se/reveal-js/#/) presentations with 
 
 ## Usage
 
-1. Create your slide deck as `slides.yaml`:
+1. Download reveal-giphy
+
+    ```
+    git clone https://github.com/RobLoach/reveal-giphy.git
+    cd reveal-giphy
+    ```
+
+2. Create your slide deck as `slides.yaml`:
 
     ``` yaml
     sad: Making presentation slides is hard
@@ -18,14 +25,14 @@ Rapidly create [Reveal.js](http://lab.hakim.se/reveal-js/#/) presentations with 
     thumbsup: http://github.com/robloach/reveal-giphy
     ```
 
-2. Install reveal-giphy, globally or locally
+3. Install dependencies
 
     ```
-    npm i reveal-giphy -g
+    npm i
     ```
 
-3. Start the presentation:
+4. Start the presentation:
 
     ```
-    reveal-giphy
+    npm test
     ```
